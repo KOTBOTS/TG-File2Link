@@ -173,14 +173,14 @@ async def help_handler(bot, message):
                 disable_web_page_preview=True)
             return
     await message.reply_text(
-        text="⚡Sᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ (ᴏʀ) ᴍᴇᴅɪᴀ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ....\nThis Bot Will Send You Permanent Link\n⚡This Link Can Be Used To Download Or Stream Files[Using External Video Player] Through My Server\n⚡For Streaming Just Copy The Mono Link And Paste It In Your Video Player To Start Streaming\n⚡This bot shAres the Permanent Link to yOu.\n⚡This Bot Is Also Supported in Channels. Add me to Channel as Admin to Make Me Workable!\nFor More Information: @TeleRoidGroup\n\n🔹**WARNING**🚸/n/n**🔞 Porn Contents Leads You To Permanent Ban From All Bots**", 
+        text="⚡Sᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ (ᴏʀ) ᴍᴇᴅɪᴀ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ....\nThis Bot Will Send You Permanent Link\n⚡This Link Can Be Used To Download Or Stream Files[Using External Video Player] Through My Server\n⚡For Streaming Just Copy The Mono Link And Paste It In Your Video Player To Start Streaming\n⚡This bot shAres the Permanent Link to yOu.\n⚡This Bot Is Also Supported in Channels. Add me to Channel as Admin to Make Me Workable!\nFor More Information: @KOT_BOTSp\n\n🔹**WARNING**🚸/n/n**🔞 Porn Contents Leads You To Permanent Ban From All Bots**", 
   parse_mode="Markdown",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/TeleRoidGroup"), InlineKeyboardButton("😇 Support", url="https://t.me/TeleRoid14")],
-                [InlineKeyboardButton("🚸 Powered By ", url="https://t.me/MoviesFlixers_DL"), InlineKeyboardButton("💰 Donate", url="https://t.me/PayForBotZ")],
-                [InlineKeyboardButton("👨‍💻 Developer", url="https://t.me/TheTeleRoid")]
+                [InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/KOT_BOTS"), InlineKeyboardButton("😇 Support", url="https:/t.me/KOT_REPORS"")],
+                [InlineKeyboardButton("🚸 Powered By ", url="https://t.me/KING_OF_THE_CARTOONS_CHANNEL"), InlineKeyboardButton("💰 Donate", url="https://t.me/KOT_FREE_DE_LA_HOYA_OFF")],
+                [InlineKeyboardButton("👨‍💻 Developer", url="https://t.me/KOT_FREE_DE_LA_HOYA_OFF")]
             ]
         )
     )
@@ -199,7 +199,7 @@ async def help_handler(bot, message):
             if user.status == "kicked":
                 await bot.send_message(
                     chat_id=message.chat.id,
-                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/TeleRoid14).",
+                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https:/t.me/KOT_REPORS).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -221,7 +221,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="Something went Wrong. Contact my [Support Group](https://t.me/TeleRoid14).",
+                text="Something went Wrong. Contact my [Support Group](url=https:/t.me/KOT_REPORS).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
