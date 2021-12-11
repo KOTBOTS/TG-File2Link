@@ -48,7 +48,7 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/TheTeleRoid).",
+                    text="Something went Wrong. Contact my [Support Group](https:/t.me/KOT_REPORS).",
                     parse_mode="markdown",
                     disable_web_page_preview=True)
                 return
@@ -70,7 +70,7 @@ async def start(b, m):
                 if user.status == "kicked":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/TeleRoid14).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https:/t.me/KOT_REPORS).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -96,7 +96,7 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/TeleRoid14).",
+                    text="Something went Wrong. Contact my [Support Group](https:/t.me/KOT_REPORS).",
                     parse_mode="markdown",
                     disable_web_page_preview=True)
                 return
