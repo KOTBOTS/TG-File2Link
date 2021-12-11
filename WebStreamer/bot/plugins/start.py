@@ -227,7 +227,7 @@ async def help_handler(bot, message):
             return
     await message.reply_text(
         text="\n
-╭───[ **🔅KᴏᴛFɪʟᴇTᴏLɪɴᴋBᴏᴛ🔅**]───⍟
+╭───[ **🔅KOTFILETOLINKBOT🔅**]───⍟
 │
 ├<b>🤖Bot Name : <a href='https://t.me/KOT_FILE_TO_LINK_BOT'>Kᴏᴛ Fɪʟᴇ Tᴏ Lɪɴᴋ Bᴏᴛ</a></b>\n
 │
