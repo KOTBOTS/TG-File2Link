@@ -227,15 +227,15 @@ async def help_handler(bot, message):
             return
     await message.reply_text(
         text="\n
-╭───[ **🔅TeleRoidFile2Link🔅**]───⍟
+╭───[ **🔅Kᴏᴛ Fɪʟᴇ Tᴏ Lɪɴᴋ Bᴏᴛ🔅**]───⍟
 │
-├<b>🤖Bot Name : <a href='https://t.me/Renamer_teleroid_bot'>Rename X2 Bot</a></b>\n
+├<b>🤖Bot Name : <a href='https://t.me/KOT_FILE_TO_LINK_BOT'>Kᴏᴛ Fɪʟᴇ Tᴏ Lɪɴᴋ Bᴏᴛ</a></b>\n
 │
-├<b>📢 Channel : <a href='https://t.me/TeleRoidGroup'>TÉLÉRØÎD</a></b>\n
+├<b>📢 Channel : <a href='https://t.me/KOT_BOTS'>ҜᴏT ҒʀΣᴇ ᴅΣ ʟΔ ʜΩyΔ ᴏҒꜰ</a></b>\n
 │
-├<b>👥 Version : <a href='https://t.me/TeleRoid_Renamer_bot'>0.9.2 beta</a></b>\n
+├<b>👥 Version : <a href='https://t.me/KOT_FILE_TO_LINK_BOT'>0.9.2 beta</a></b>\n
 │
-├<b>💢 Source : <a href='https://github.com/PredatorHackerzZ/Renamer-bot'>Click Here</a></b>\n
+├<b>💢 Source : <a href='https://t.me/KOT_SOURCE_CODE'>Cʟɪᴄᴋ Hᴇʀᴇ</a></b>\n
 │
 ├<b>🌐 Server : <a href='https://heroku.com'>Heroku</a></b>\n
 │
@@ -243,17 +243,17 @@ async def help_handler(bot, message):
 │
 ├<b>㊙ Language: <a href='https://www.python.org'>Python 3.9.4</a></b>\n
 │
-├<b>👨‍💻 Developer : <a href='https://t.me/PredatorHackerZ'>꧁ ƤℜɆĐ₳₮Øℜ 🇮🇳 ꧂</a></b>\n
+├<b>👨‍💻 Developer : <a href='https://t.me/KOT_FREE_DE_LA_HOYA_OFF'>ҜᴏT ҒʀΣᴇ ᴅΣ ʟΔ ʜΩyΔ ᴏҒꜰ</a></b>\n
 │
-├<b>🚸 Powered By : <a href='https://t.me/Moviesflixers_DL'>Tᴀᴍɪʟᴡᴇʙ Tɢ Nᴇᴛᴡᴏʀᴋ</a></b>\n
+├<b>🚸 Powered By : <a href='https://t.me/KOT_LINKS_TEAM'>Kᴏᴛ Lɪɴᴋꜱ Tᴇᴀᴍ</a></b>\n
 │
 ╰─────────[Thanks 😊]────────⍟"
   parse_mode="Markdown",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("🚸 Powered By ", url="https://t.me/MoviesFlixers_DL"), InlineKeyboardButton("💰 Donate", url="https://t.me/PayForBotZ")],
-                [InlineKeyboardButton("👨‍💻 Developer", url="https://t.me/TheTeleRoid")]
+                [InlineKeyboardButton("🚸 Powered By ", url="https://t.me/KOT_LINKS_TEAM"), InlineKeyboardButton("💰 Donate", url="https://t.me/KOT_FREE_DE_LA_HOYA_OFF")],
+                [InlineKeyboardButton("👨‍💻 ҜᴏT ҒʀΣᴇ ᴅΣ ʟΔ ʜΩyΔ ᴏҒꜰ", url="https://t.me/KOT_FREE_DE_LA_HOYA_OFF")]
             ]
         )
     )
