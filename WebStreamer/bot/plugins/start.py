@@ -178,7 +178,7 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/KOT_BOTS"), InlineKeyboardButton("😇 Support", url="https:/t.me/KOT_REPORS"")],
+                [InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/KOT_BOTS"), InlineKeyboardButton("😇 Support", url="https:/t.me/KOT_REPORS")],
                 [InlineKeyboardButton("🚸 Powered By ", url="https://t.me/KING_OF_THE_CARTOONS_CHANNEL"), InlineKeyboardButton("💰 Donate", url="https://t.me/KOT_FREE_DE_LA_HOYA_OFF")],
                 [InlineKeyboardButton("👨‍💻 Developer", url="https://t.me/KOT_FREE_DE_LA_HOYA_OFF")]
             ]
