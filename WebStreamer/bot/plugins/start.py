@@ -86,7 +86,7 @@ async def start(b, m):
                             ],
                             [
                                 InlineKeyboardButton("🔄 Refresh 🔄",
-                                                     url=f"https://t.me/TeleRoid_File2Link_Bot?start=PredatorHackerzZ_{usr_cmd}")
+                                                     url=f"https://t.me/KOT_FILE_TO_LINK_BOT?start=KOTBOTS_{usr_cmd}")
                             ]
                         ]
                     ),
